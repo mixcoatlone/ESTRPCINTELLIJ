@@ -22,6 +22,7 @@ public class App {
 "- Clonar (baixar) um repositório do github para o repositório local, e importa-lo como um projeto no NetBeans;\n" +
 "- Recuperar (pull) mudanças do repositório no github para o respositório local;\n" +
 "- Notificar (push) mudanças do repositório local para o remoto no github;");
+        System.out.println("novo");
     }
     
 }
