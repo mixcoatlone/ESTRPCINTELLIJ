@@ -22,6 +22,7 @@ public class Fora {
     }
 
     class Dentro {
+
         public void acessarExterna() {
             System.out.println("Valor do atributo n: " + n);
 

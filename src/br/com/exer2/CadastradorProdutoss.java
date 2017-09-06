@@ -4,6 +4,7 @@ import br.com.exer.Produto;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.Scanner;
 
 
@@ -14,7 +15,7 @@ public class CadastradorProdutoss {
 
     public static void main(String[] args) {
 
-        Collection<Produto> produtos = new ArrayList<>();
+        Collection<Produto> produtos = new HashSet<>();
 
 
         System.out.println("#### Cadastro de produtos ####\n");
@@ -27,7 +28,7 @@ public class CadastradorProdutoss {
                 System.out.println("SKU: ");
                 String sku = entrada.nextLine();
 
-                System.out.println("SKU: ");
+                System.out.println("Nome: ");
                 String nome = entrada.nextLine();
 
                 Produto produto = new Produto(sku, nome);
